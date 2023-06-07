@@ -1,27 +1,29 @@
+
+
 from django.shortcuts import render
 
 
 def index(request):
-    return render(request, 'index.html')
+    return render(request, 'blog/index.html')
 
 def about(request):
-    return render(request, 'about.html')
+    return render(request, 'blog/about.html')
 
 def booking(request):
-    return render(request, 'booking.html')
+    return render(request, 'blog/booking.html')
 
 def contact(request):
-    return render(request, 'contact.html')
+    return render(request, 'blog/contact.html')
 
 def service(request):
-    return render(request, 'service.html')
+    return render(request, 'blog/service.html')
 
 def team(request):
-    return render(request, 'team.html')
+    return render(request, 'blog/team.html')
 
 def testimonial(request):
-    return render(request, 'testimonial.html')
+    return render(request, 'blog/testimonial.html')
 
 def eror(request):
-    return render(request, '404.html')
+    return render(request, 'blog/404.html')
 
